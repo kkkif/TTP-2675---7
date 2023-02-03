@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    background: var(--bg-dark);
+    padding: 36px 0;
+    justify-content: center;
+
+    p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
