@@ -13,6 +13,7 @@
   --bg-blue: #02A4FF;
   --bg-blue-drk: #212941;
   --bg-dark: #0D0D0D;
+  --bg-greylight: #58544C;
 }
 
 * {
@@ -155,7 +156,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--color-primary);
-  background: var(--bg-secondary);
+  background: var(--bg-dark);
   overflow-x: hidden;
 }
 body.hidden {
@@ -412,6 +413,8 @@ body.hidden {
   z-index: 2;
   background: var(--bg-dark);
   padding: 50px 100px 101px;
+  max-width: 1340px;
+  margin: 0 auto;
 }
 @media (max-width: 1100px) {
   .article {
